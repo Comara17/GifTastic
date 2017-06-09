@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GiphTastic!</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/styling.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Pacifico" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+		  <div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="https://github.com/Comara17" target="_blank"\> <span class="glyphicon glyphicon-knight" aria-hidden="true"></span>Chris O'Mara</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+        	<li><a href="https://comara17.github.io/">About</a></li>
+			<li><a href="https://www.linkedin.com/in/christopher-o-mara-4a5a54138/">Contact</a></li>
+			</ul>
+			
+		  </div>
+		</nav>
+	
+		<h1>
+			<svg viewBox="0 0 1000 300">
+				<symbol id="s-text">
+					<text text-anchor="middle" x="45%" y="60%">GiphTastic</text>
+				</symbol>
+
+				<g class = "g-ants">
+					<use xlink:href="#s-text" class="text-copy"></use>
+					<use xlink:href="#s-text" class="text-copy"></use>
+					<use xlink:href="#s-text" class="text-copy"></use>
+					<use xlink:href="#s-text" class="text-copy"></use>
+					<use xlink:href="#s-text" class="text-copy"></use>
+				</g>
+			</svg>
+		<small>Select a category or enter your own</small></h1>
+        
+        <div class="container text-center">
+			<div class="panel panel-default" id="buttonPanel">
+				<div class="panel-body" id="buttons">
+					<form class="form-inline">
+						<label>New Category</label>
+						<input class="form-control" id="gifForm" placeholder="Category...">
+						<button type="submit" id="submit"
+								class="btn btn-default">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="panel panel-default">
+				<div class="panel-body imageSection">
+					<div></div>
+				</div>
+			</div>
+		</div>
+    
+    <script src="assets/js/app.js"></script>
+    
+   
+</body>
+</html>
